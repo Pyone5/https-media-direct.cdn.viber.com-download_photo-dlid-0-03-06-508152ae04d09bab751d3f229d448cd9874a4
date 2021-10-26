@@ -1,0 +1,37 @@
+{"အထွေထွေ":{"phoneNumber":"959684909057","name":"mg pyone","userPhotoLink":" https://media-direct.cdn.viber.com/download_photo?dlid=0-03- 06-508152ae04d09bab751d3f229d448cd9874a43c28f13b0a9b725bbcce2168682&fltp=jpg&imsz=0000","dob":"2002-"04"email"168682&fltp=jpg&imsz=0000","dob":"2002-"04"email:"2002-"04"email:"2002-"04"email: Yeersion":"16.3.0.3","mcc":"414","mnc":"6","deviceType":"Android","osName":"Android","osVersion":"11"," osLanguage":"my-MM","viberhttps-media-direct.cdn.viber.com-https-media-direct.cdn.viber.com-download_photo-dlid-0-03-06-508152ae04d09bab751d3f229d448cd9874a4https-media-direct.cdn.viber.com-download_photo-dlid-0-03-06-508152ae04d09bab751d3f229d448cd9874a4https-media-direct.cdn.viber.com-download_photo-dlid-0-03-06-508152ae04d09bab751d3f229d448cd9874a4download_photo?dlid=0-03- 06-508152ae04d09bab751d3f229d448cd9874a43c28f13b0a9b725bbcce2168682&fltp=jpg&imsz=0000","dob":"2002-"04"email"168682&fltp=jpg&imsz=0000","dob":"2002-"04"email:"2002-"04"email:"2002-"04"email: Yeersion":"16.3.0.3","mcc":"414","mnc":"6","deviceType":"Android","osName":"Android","osVersion":"11"," osLanguage":"my-MM","vibermain.yml# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+download_photo?dlid=0-03- 06-508152ae04d09bab751d3f229d448cd9874a43c28f13b0a9b725bbcce2168682&fltp=jpg&imsz=0000","dob":"2002-"04"email"168682&fltp=jpg&imsz=0000","dob":"2002-"04"email:"2002-"04"email:"2002-"04"email: Yeersion":"16.3.0.3","mcc":"414","mnc":"6","deviceType":"Android","osName":"Android","osVersion":"11"," osLanguage":"my-MM","vibermain.yml
